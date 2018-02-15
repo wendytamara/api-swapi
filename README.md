@@ -34,12 +34,12 @@ Nuestra pagina se visualiza asi:
 - vanilla
 - javascript
 - Html5
-- Api de New York Times
+- Api de Star Wars
 
 ## Autores
 
 - **Wendy Quispe** - [@wendytamara](https://github.com/wendytamara)
-
+- **Claudia Garibotto** - [@claudiagari](https://github.com/claudiagari)
 
 ## Licencia
 
