@@ -1,0 +1,16 @@
+.titlee{
+  text-align: center;
+  padding: 15px;
+}
+
+.line {
+  line-height: 0.8;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.mrg {
+  margin-top: 80px;
+}

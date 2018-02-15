@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>XMLHttpRequest</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" text-white>Link</a></li>
+            <li><a href="#" text-white>Link</a></li>
+            <li><a href="#" text-white>Link</a></li>
+            <li><a href="#" class="text-white">Link</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="mrg">
+    <form id="search-form" class="col-xs-12 text-center">
+      <input class="camp-text" type="text" id="filtro" name="search-keyword">
+      <input class="btn" type="button" id="submit-btn" value="Submit" >
+  </form>
+  </section>
+
+  <section>
+    <div id="responseContainer">
+
+    </div>
+  </section>
+
+      <!-- Modal -->
+  <section>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header ">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <div class="container">
+              <div class="row">
+               <div class="col-xs-12 col-sm-3">
+                  <h4 class="modal-title titlee"><strong id="title"></strong></h4>
+                  <p id="overview"></p>
+                  <p><strong>DESCRIPCION:</strong></p>
+
+                  <p> <strong >TALLA:</strong> <span id="height"></span> </p>
+                  <p class="line"> <strong >MASA:</strong> <span id="mass"></span></p>
+                  <p class="line"> <strong >COLOR DE OJOS:</strong> <span id="eyesColor"></span></p>
+                  <p class="line"> <strong >COLOR DE CABELLO: </strong> <span id="hairColor"></span></p>
+               </div>
+                <div class="col-xs-12 col-sm-3">
+                 <img id="imagenStart" class="img-responsive img-thumbnail food-img">
+                  <br>
+                </div>
+              </div>
+            </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- </div> -->
+  </section>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="js/api.js"></script> -->
+
+    <script type="text/javascript" src="js/personajes.js"></script>
+    <script type="text/javascript" src="js/app.js">
+    </script>
+</body>
+</html>
