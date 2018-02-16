@@ -1,5 +1,8 @@
 body {
-  background-color: #000;
+  background:url('../assets/images/background.gif') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .titlee{
@@ -32,4 +35,9 @@ body {
   .logo-star {
     width: 220px;
   }
+}
+
+.img-person {
+  width: 381px;
+  height: 262px important;
 }

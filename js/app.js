@@ -7,8 +7,8 @@ function showPersonajes() {
     let output = `<div class="">
     <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
-        <img class="img-person img-responsive" src="${personajes[i].img}" alt="">
-        <div class="caption">
+        <img class="img-person " src="${personajes[i].img}" alt="">
+        <div class="caption text-center">
           <h3>${personajes[i].name}</h3>
           <p><a href="#" data-name="${personajes[i].name}" data-toggle="modal" data-target="#myModal" class="btn btn-primary box" type="button" >More</a></p>
         </div>
@@ -16,21 +16,9 @@ function showPersonajes() {
     </div>
   </div>`;
     $containerImg.append(output);
-    /* let $boxImg = $('<div></div>');
-    $boxImg.addClass('col-xs-4 col-md-3 collection box');
-    $boxImg.attr('data-name', personajes[i].name);
-    $boxImg.attr('data-toggle', 'modal');
-    $boxImg.attr('data-target', '#myModal');
-    $containerImg.append($boxImg);
-
-    let $img = $(' <img/> ');
-    $img.addClass('img-responsive img-thumbnail food-img');
-    $img.attr('src', personajes[i].img);
-    $boxImg.append($img);*/
   }
 }
 showPersonajes();
-
 fetch(url)
   .then(function(response) {
     return response.json();
@@ -38,7 +26,6 @@ fetch(url)
     console.log(data.results);
     console.log(personajes);
     const objectData = data.results;
-
     $('.box').on('click', function() {
       for (j = 0; j < personajes.length; j++) {
         if ($(this).data('name') === personajes[j].name) {
@@ -47,9 +34,7 @@ fetch(url)
         }
       }
     });
-
     $('.box').on('click', function() {
-      ;
       for (i = 0; i < objectData.length; i++) {
         if ($(this).data('name') === personajes[i].name) {
           console.log(objectData[i].name);
@@ -58,7 +43,6 @@ fetch(url)
           $('#mass').text(objectData[i].mass);
           $('#eyesColor').text(objectData[i].eye_color);
           $('#hairColor').text(objectData[i].hair_color);
-
           break;
           FilterElements();
         }
@@ -69,18 +53,3 @@ fetch(url)
     console.log(error);
   });
 
-
-// filtro para el input
-// $('#filtro').on('keyup', FilterElements);
-// function FilterElements(){
-
-//   var nombre = $(this).val();
-//   $('.collection').hide();
-//   $('.collection').each(function() {
-//     for (var i = 0; i < personajes.length; i++)
-//     var search = personajes[i].name;
-//     if (search.indexOf(nombre) !== -1) {
-//       $(this).show();
-//     }
-//   });
-// }
