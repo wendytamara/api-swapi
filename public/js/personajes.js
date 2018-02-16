@@ -56,6 +56,6 @@ var personajes = [
   {
     'img': 'assets/images/obi-wan-kenobi.jpg',
     'name': 'Obi Wan Kenobi',
-    'description': ' '
+    'description': 'Un legendario Maestro Jedi, Obi-Wan Kenobi era un hombre noble y dotado en los caminos de la Fuerza. Entrenó a Anakin Skywalker, sirvió como general en el ejército de la República durante la Guerra de los Clones y guió a Luke Skywalker como un mentor.'
   }
 ]
