@@ -4,7 +4,19 @@ const $containerImg = $('#responseContainer');
 
 function showPersonajes() {
   for (let i = 0; i < personajes.length; i++) {
-    let $boxImg = $('<div></div>');
+    let output = `<div class="">
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img class="img-person img-responsive" src="${personajes[i].img}" alt="">
+        <div class="caption">
+          <h3>${personajes[i].name}</h3>
+          <p><a href="#" data-name="${personajes[i].name}" data-toggle="modal" data-target="#myModal" class="btn btn-primary box" type="button" >More</a></p>
+        </div>
+      </div>
+    </div>
+  </div>`;
+    $containerImg.append(output);
+    /* let $boxImg = $('<div></div>');
     $boxImg.addClass('col-xs-4 col-md-3 collection box');
     $boxImg.attr('data-name', personajes[i].name);
     $boxImg.attr('data-toggle', 'modal');
@@ -14,7 +26,7 @@ function showPersonajes() {
     let $img = $(' <img/> ');
     $img.addClass('img-responsive img-thumbnail food-img');
     $img.attr('src', personajes[i].img);
-    $boxImg.append($img);
+    $boxImg.append($img);*/
   }
 }
 showPersonajes();
@@ -58,7 +70,7 @@ fetch(url)
   });
 
 
-  // filtro para el input
+// filtro para el input
 // $('#filtro').on('keyup', FilterElements);
 // function FilterElements(){
 
