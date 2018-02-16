@@ -1,0 +1,24 @@
+{
+  "name": "api-swapi",
+  "version": "1.0.0",
+  "description": "<!-- <p align=\"center\">\r <img src=\"public/assets/images/logo.png\">\r </img>\r </p>\r <p align=\"center\">\r </p>\r <p align=\"center\">\r <a  href=\"https://travis-ci.org/t4t5/sweetalert\"><img src=\"https://travis-ci.org/t4t5/sweetalert.svg\" alt=\"Build status\"/><a>\r <a href=\"https://github.com/t4t5/sweetalert/blob/master/LICENSE\">\r   <img src=\"https://img.shields.io/github/license/t4t5/sweetalert.svg\" />\r </a>\r </p> -->",
+  "main": "yes",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wendytamara/api-swapi.git"
+  },
+  "author": "Wendy tamara quispe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wendytamara/api-swapi/issues"
+  },
+  "homepage": "https://github.com/wendytamara/api-swapi#readme"
+}
