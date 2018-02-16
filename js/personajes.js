@@ -24,13 +24,13 @@ var personajes = [
 
   },
   {
-    'img': 'assets/images/princesa-leia (2).jpg',
+    'img': 'assets/images/Princesa-Leia (2).jpg',
     'name': 'Princesa Leia Organa',
     'description': 'Fue una de las más grandes líderes de la Alianza Rebelde, valiente en el campo de batalla y dedicada a poner fin a la tiranía del Imperio. Hija de Padmé Amidala y Anakin Skywalker, hermana de Luke Skywalker y con una debilidad por los sinvergüenzas, Leia es una de los grandes heroínas de la galaxia. '
 
   },
   {
-    'img': 'assets/images/owen-lars (2).jpg',
+    'img': 'assets/images/owen-Lars (2).jpg',
     'name': 'Owen Lars',
     'description': 'Fue un hombre que vivió y trabajo duramente desde muy joven en Tatooine, como granjero de humedad, fue hijo de Cliegg Lars y Aika Lars y hermanastro de Anakin Skywalker. Durante las Guerras Clon se casó con Beru Whitesun y justo después del final de la Guerra fueron contactados por Obi-Wan Kenobi, quien les informó que Anakin había tenido un hijo, Luke Skywalker y que necesitaba de una familia, Beru lo convenció de adoptarlo y se hicieron cargo de él durante 19 años aproximadamente.'
 
