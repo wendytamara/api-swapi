@@ -51,11 +51,3 @@ function showPersonajes() {
 }
 showPersonajes();
 
-// $('.box').on('click', function() {
-//   for (j = 0; j < personajes.length; j++) {
-//     if ($(this).data('name') === personajes[j].name) {
-//       $('#imagenStart').attr('src', personajes[j].img);
-//       $('#overview').text(personajes[j].description);
-//     }
-//   }
-// });

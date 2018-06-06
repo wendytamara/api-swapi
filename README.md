@@ -1,48 +1,7 @@
-# **API DE STAR WARS - FETCH**
+# API SWAPI
 
-<!-- <p align="center">
-<img src="public/assets/images/logo.png">
-</img>
-</p>
-<p align="center">
-</p>
-<p align="center">
-<a  href="https://travis-ci.org/t4t5/sweetalert"><img src="https://travis-ci.org/t4t5/sweetalert.svg" alt="Build status"/><a>
-<a href="https://github.com/t4t5/sweetalert/blob/master/LICENSE">
-  <img src="https://img.shields.io/github/license/t4t5/sweetalert.svg" />
-</a>
-</p> -->
+Pagina web en donde econtraras informacion de todos los personajes de la saga Star Wars, elaborado con el API de Star Wars y diseñado para que sea visible en diferentes dispositivos.
 
-##  **OBJETIVO**
+![API SWAPI](https://user-images.githubusercontent.com/32303250/41056113-bc4ec044-6988-11e8-9d54-7a903d492008.png)
 
-Practicar todo lo aprendido respecto a APIs
-Practicar, practicar y practicar
-
-##  **DESARROLLO**
-
-para la creacion de nuestra pagina Se utilizo el api de STAR WARS, se obtuvo la informacion con FETCH
-
-Nuestra pagina se visualiza asi:
-
-
-![Texto alternativo](assets/docs/3.png "Título de la imagen").
-![Texto alternativo](assets/docs/1.png "Título de la imagen").
-![Texto alternativo](assets/docs/2.png "Título de la imagen").
-
-
-##  Tecnologias Usadas
-- vanilla
-- javascript
-- Html5
-- Api de Star Wars
-
-## Autores
-
-- **Wendy Quispe** - [@wendytamara](https://github.com/wendytamara)
-- **Claudia Garibotto** - [@claudiagari](https://github.com/claudiagari)
-
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia ISC - ver el archivo [LICENSE](https://www.isc.org) para más detalles.
-
-Copyright &copy; 2018 All Rights Reserved.
+## Desarrollado para [Laboratoria](http://www.laboratoria.la/)
